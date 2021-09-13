@@ -1,4 +1,4 @@
-- 👋 Hi, I’m @devczan
+- 👋 Hi, I’m Czan Dev
 - 👀 I’m interested in building innovative things.
 - 🌱 I’m currently learning programming languages.
 - 💞️ I’m looking to collaborate on any new programming ideas
