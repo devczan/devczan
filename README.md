@@ -3,7 +3,7 @@
 - 🌱 I’m currently learning llms.
 - 💞️ I’m looking to collaborate on any new project ideas
 - 📫 How to reach me:
-u can mail me dev.czan@gmail.com
+u can mail me atczan@gmail.com
 
 <!---
 devczan/devczan is a ✨ special ✨ repository because its `README.md` (this file) appears on your GitHub profile.
