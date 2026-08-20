@@ -22,12 +22,12 @@
 <img align="right" width="260" src="https://raw.githubusercontent.com/DenverCoder1/readme-typing-svg/main/gifs/coding.gif" alt="coding gif"/>
 
 - 👤 **Name:** Czan Dev
-- 🎓 **Background:** B.Tech in Computer Science & Engineering — Jain University *(CGPA 8.5)*
-- 💼 **Currently:** Technical Lead — Web Development, API Integrations & IT Infrastructure
+- 🎓 **Background:** B.Tech in Computer Science & Engineering -> Jain University *(CGPA 8.5)*
+- 💼 **Currently:** Technical Lead -> Web Development, API Integrations & IT Infrastructure
 - 🤖 **Focus:** AI models, AI agents, intelligent automation & full-stack systems
 - 📍 **Location:** Kathmandu, Nepal 🇳🇵
 - 🗣️ **Languages:** English, Nepali
-- ⚡ **Fun fact:** I turn ideas into shipped products — from ML models to Play Store apps
+- ⚡ **Fun fact:** I turn ideas into shipped products -> from ML models to Play Store apps
 
 <br clear="right"/>
 
@@ -57,7 +57,7 @@ currently:
 Design, train & fine-tune ML models. Build AI agents and agentic workflows for automation and intelligent decision-making.
 
 ### 🌐 Full-Stack Development
-End-to-end web apps with modern JS/TypeScript, WordPress, Webflow — plus Flutter for mobile.
+End-to-end web apps with modern JS/TypeScript, WordPress, Webflow, plus Flutter for mobile.
 
 </td>
 <td width="50%" valign="top">
@@ -92,7 +92,7 @@ Built an ML model on the Cleveland Heart Disease dataset with a strong focus on 
 </td>
 <td width="50%" valign="top">
 
-#### 📱 SNS Clocked In — Android App
+#### 📱 SNS Clocked In, Android App
 Workforce management app live on Google Play (`com.snstech.sns_rooster`). GPS clock-in/out, leave requests, real-time tracking & compliance with Australian labor law.
 
 `Flutter` `Firebase` `Google Play`
