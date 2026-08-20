@@ -176,7 +176,7 @@ WordPress site built end-to-end for an Australian travel agency.
       steps:
         - uses: Platane/snk@v3
           with:
-            github_user_name: czan-dev
+            github_user_name: devczan
             outputs: dist/github-contribution-grid-snake.svg
         - uses: crazy-max/ghaction-github-pages@v4
           with:
@@ -200,10 +200,10 @@ I'm actively exploring **Software Developer / AI Engineer / Full-Stack** roles (
 <a href="mailto:dev1czan@gmail.com">
   <img src="https://img.shields.io/badge/Email-dev1czan%40gmail.com-D14836?style=for-the-badge&logo=gmail&logoColor=white"/>
 </a>
-<a href="https://github.com/czan-dev">
+<a href="https://github.com/devczan">
   <img src="https://img.shields.io/badge/GitHub-czan--dev-181717?style=for-the-badge&logo=github&logoColor=white"/>
 </a>
-<a href="https://www.linkedin.com/in/czan-dev">
+<a href="https://www.linkedin.com/in/devczan">
   <img src="https://img.shields.io/badge/LinkedIn-czan--dev-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white"/>
 </a>
 
