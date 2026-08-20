@@ -1,0 +1,23 @@
+<svg width="1200" height="120" viewBox="0 0 1200 120" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="fbg" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#2d1b69"/>
+      <stop offset="50%" stop-color="#4c1d95"/>
+      <stop offset="100%" stop-color="#2d1b69"/>
+    </linearGradient>
+    <linearGradient id="txt" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#c4b5fd"/>
+      <stop offset="50%" stop-color="#ffffff"/>
+      <stop offset="100%" stop-color="#c4b5fd"/>
+      <animate attributeName="x1" values="-20%;120%;-20%" dur="5s" repeatCount="indefinite"/>
+      <animate attributeName="x2" values="80%;220%;80%" dur="5s" repeatCount="indefinite"/>
+    </linearGradient>
+    <clipPath id="fr"><rect width="1200" height="120" rx="16"/></clipPath>
+  </defs>
+  <g clip-path="url(#fr)">
+    <rect width="1200" height="120" fill="url(#fbg)"/>
+    <text x="600" y="68" text-anchor="middle" font-family="Fira Code, Consolas, monospace" font-size="24" font-weight="600" fill="url(#txt)">
+      Thanks for stopping by — let's build something great 🚀
+    </text>
+  </g>
+</svg>

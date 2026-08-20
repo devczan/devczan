@@ -1,0 +1,85 @@
+<svg width="1200" height="320" viewBox="0 0 1200 320" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="bg" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#0d0221"/>
+      <stop offset="45%" stop-color="#1a0e3d"/>
+      <stop offset="100%" stop-color="#2d1b69"/>
+    </linearGradient>
+    <radialGradient id="glow1" cx="50%" cy="50%" r="50%">
+      <stop offset="0%" stop-color="#8A5CF6" stop-opacity="0.55"/>
+      <stop offset="100%" stop-color="#8A5CF6" stop-opacity="0"/>
+    </radialGradient>
+    <radialGradient id="glow2" cx="50%" cy="50%" r="50%">
+      <stop offset="0%" stop-color="#556ED2" stop-opacity="0.5"/>
+      <stop offset="100%" stop-color="#556ED2" stop-opacity="0"/>
+    </radialGradient>
+    <clipPath id="rounded">
+      <rect x="0" y="0" width="1200" height="320" rx="18"/>
+    </clipPath>
+  </defs>
+
+  <g clip-path="url(#rounded)">
+    <rect width="1200" height="320" fill="url(#bg)"/>
+
+    <!-- floating glow orbs -->
+    <circle cx="120" cy="60" r="140" fill="url(#glow1)">
+      <animateTransform attributeName="transform" type="translate" values="0,0; 40,30; 0,0" dur="9s" repeatCount="indefinite"/>
+    </circle>
+    <circle cx="1080" cy="260" r="160" fill="url(#glow2)">
+      <animateTransform attributeName="transform" type="translate" values="0,0; -35,-25; 0,0" dur="11s" repeatCount="indefinite"/>
+    </circle>
+    <circle cx="1000" cy="50" r="90" fill="url(#glow1)" opacity="0.6">
+      <animateTransform attributeName="transform" type="translate" values="0,0; -20,20; 0,0" dur="7s" repeatCount="indefinite"/>
+    </circle>
+
+    <!-- drifting code particles -->
+    <g font-family="Fira Code, Consolas, monospace" font-size="13" fill="#8A5CF6" opacity="0.35">
+      <text x="60" y="290">&lt;/&gt;</text>
+      <text x="1120" y="40">{ }</text>
+      <text x="980" y="300">=&gt;</text>
+      <text x="40" y="150">01</text>
+      <animateTransform attributeName="transform" type="translate" values="0,0; 0,-14; 0,0" dur="6s" repeatCount="indefinite"/>
+    </g>
+
+    <!-- terminal window -->
+    <g>
+      <rect x="150" y="60" width="900" height="210" rx="12" fill="#0d1117" stroke="#33254f" stroke-width="1.5"/>
+      <rect x="150" y="60" width="900" height="34" rx="12" fill="#161225"/>
+      <rect x="150" y="82" width="900" height="12" fill="#161225"/>
+      <circle cx="176" cy="77" r="6" fill="#ff5f56"/>
+      <circle cx="198" cy="77" r="6" fill="#ffbd2e"/>
+      <circle cx="220" cy="77" r="6" fill="#27c93f"/>
+      <text x="600" y="82" text-anchor="middle" font-family="Fira Code, Consolas, monospace" font-size="13" fill="#8b8394">czan@dev-machine — zsh</text>
+
+      <g font-family="Fira Code, Consolas, monospace" font-size="20">
+        <text x="180" y="140" fill="#7ee787">
+          <tspan fill="#8A5CF6">$</tspan> whoami
+        </text>
+        <text x="180" y="140" fill="#ffffff" opacity="0">
+          <animate attributeName="opacity" values="0;0;1" keyTimes="0;0.05;0.15" dur="8s" begin="0.3s" repeatCount="indefinite" fill="freeze"/>
+        </text>
+
+        <text x="180" y="178" fill="#e6e1f9" opacity="0">
+          <animate attributeName="opacity" values="0;0;1" keyTimes="0;0.15;0.25" dur="8s" begin="0s" repeatCount="indefinite" fill="freeze"/>
+          Czan Dev — Software Developer · AI Engineer
+        </text>
+
+        <text x="180" y="216" fill="#7ee787" opacity="0">
+          <animate attributeName="opacity" values="0;0;1" keyTimes="0;0.35;0.45" dur="8s" begin="0s" repeatCount="indefinite" fill="freeze"/>
+          <tspan fill="#8A5CF6">$</tspan> ./build --focus "AI Agents"
+        </text>
+
+        <text x="180" y="252" fill="#e6e1f9" opacity="0">
+          <animate attributeName="opacity" values="0;0;1" keyTimes="0;0.55;0.65" dur="8s" begin="0s" repeatCount="indefinite" fill="freeze"/>
+          Shipping full-stack apps &amp; intelligent automation 🚀
+          <animate attributeName="opacity" values="1;1;0" keyTimes="0;0.97;1" dur="8s" begin="0s" repeatCount="indefinite"/>
+        </text>
+
+        <rect x="182" y="235" width="12" height="20" fill="#8A5CF6">
+          <animate attributeName="opacity" values="1;0;1" dur="1s" repeatCount="indefinite"/>
+          <animate attributeName="x" values="182;700" keyTimes="0;1" dur="8s" begin="0s" repeatCount="indefinite" fill="freeze" calcMode="discrete"/>
+        </rect>
+      </g>
+    </g>
+  </g>
+</svg>
